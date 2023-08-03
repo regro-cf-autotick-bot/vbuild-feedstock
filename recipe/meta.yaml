@@ -1,5 +1,5 @@
 {% set name = "vbuild" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vbuild-{{ version }}.tar.gz
-  sha256: b9ff9071fa61009563e935eddea4fdf1494c71941285f05fd57648f73dc19ecc
+  sha256: 270cd9078349d907dfae6c0e6364a5a5e74cb86183bb5093613f12a18b435fa9
 
 build:
   noarch: python
